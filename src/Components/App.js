@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
+
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Home';
-import Germancars from './Pages/Germancars';
-import Luxurycars from './Pages/Luxurycars';
-import Londoncars from './Pages/Londoncars';
-import Americancars from './Pages/Americancars';
+import Germancars from './Germancars';
+import Luxurycars from './Luxurycars';
+import Londoncars from './Londoncars';
+import Americancars from './Americancars';
 import Login from './Login';
 
 
