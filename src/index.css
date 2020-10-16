@@ -182,3 +182,52 @@ a{
   position: flex;
   
 }
+
+
+
+.hero-container{
+  background: url('./Components/Images/auto6.jpg') center center/cover no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  
+
+}
+
+.hero-container h1{
+  color: #fff;
+  font-size: 90px;
+  font-weight: 800;
+  margin-top: -100px;
+}
+
+.hero-container p{
+  margin-top: 8px;
+  font-size: 32px;
+  color: white;
+  font-family: 'Trebuchet MS';
+}
+
+@media screen and (max-width: 960px){
+  .hero-container h1{
+  font-size: 60px;
+  margin-top: -150px;
+}
+}
+
+@media screen and (max-width: 768px){
+  .hero-container h1{
+  font-size: 40px;
+  margin-top: -150px;
+}
+.hero-container p{
+  font-size: 28px;
+ 
+}
+
+}
