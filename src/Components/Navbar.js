@@ -4,7 +4,7 @@ import * as AiIcons from 'react-icons/ai';
 import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import { IconContext } from 'react-icons';
-import logo  from './autologo.png';
+import logo  from './Images/autologo.png';
 
 function Navbar() {
     const [sidebar, setSidebar] = useState(false);

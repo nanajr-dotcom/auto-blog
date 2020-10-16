@@ -9,22 +9,22 @@ export const SidebarData = [
   
   {
     title: 'Luxury Cars',
-    path: '/luxury',
+    path: '/luxurycars',
     cName: 'nav-text'
   },
   {
     title: 'German Class',
-    path: '/german',
+    path: '/germancars',
     cName: 'nav-text'
   },
   {
     title: 'American Muscles',
-    path: '/american',
+    path: '/americancars',
     cName: 'nav-text'
   },
   {
     title: 'London Range',
-    path: '/london',
+    path: '/londoncars',
     cName: 'nav-text'
   },
   {
