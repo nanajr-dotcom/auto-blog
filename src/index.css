@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  
 }
 
 code {
@@ -13,7 +15,7 @@ code {
 }
 
 .mainhome{
-  background-image: url('./images/carbg.jpg');
+  
   background-size: cover;
   background-position: bottom;
   transition: 0.4 ease-out;
@@ -77,12 +79,14 @@ code {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  padding: 0 16px 0 16px;
   border-radius: 4px;
 }
 
 .nav-text a:hover {
   background-color: #1a83ff;
+  text-decoration: none;
+  padding: 0 16px 0 16px;
 }
 
 .nav-menu-items {
@@ -100,6 +104,14 @@ code {
 
 span {
   margin-left: 16px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a{
+  text-align: left;
 }
 
 .header{
