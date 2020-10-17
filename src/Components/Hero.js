@@ -1,5 +1,5 @@
 import React from 'react'
-import { hero } from './Images/auto4.jpeg';
+
 
 function Hero() {
     return (
