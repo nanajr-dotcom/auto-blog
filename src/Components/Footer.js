@@ -1,8 +1,16 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import  logo  from './Images/autologo.png';
+import { useTheme, useThemeUpdate } from './ThemeContext';
+
 
 function Footer() {
+    const darkTheme = useTheme()
+    const toggleTheme = useThemeUpdate()
+    const themeStyles = {
+        backgroundColor: darkTheme ? '#333' : '#CCC',
+        color: darkTheme ? '#CCC' : '#333'
+    }
     return (
         <div className="footer-container">
             <section className="footer-section">
@@ -37,6 +45,10 @@ function Footer() {
                     </button>
                         </form>
                     </div>
+                </div>
+                <button onClick={toggleTheme}> toggle</button>
+                <div style={themeStyles}>
+                    <p>nana</p>
                 </div>
                     <p>© 2020. All rights reserved Auto Info. By Nana Asamoah Jnr</p>
             </section>

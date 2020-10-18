@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Navbar from './Components/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -8,11 +7,12 @@ import Luxurycars from './Pages/Luxurycars';
 import Londoncars from './Pages/Londoncars';
 import Americancars from './Pages/Americancars';
 import Login from './Components/Login';
-
+import { ThemeProvider } from './Components/ThemeContext';
 
 function App() {
   return (
     <>
+    <ThemeProvider>
       <Router>
         <Navbar />
         <Switch>
@@ -24,6 +24,7 @@ function App() {
           <Route path='/login' component={Login} />
         </Switch>
       </Router>
+      </ThemeProvider> 
     </>
   );
 }
