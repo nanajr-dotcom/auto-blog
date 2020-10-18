@@ -22,10 +22,13 @@ function Footer() {
                     </button>
                     </form>
                 </div>
-                <div className="footer-logo">
+                <div className="footer-wrapper">
                     <div>
                         <img src={logo} alt="logo" />
                     </div>
+                </div>
+                <div className="footer-wrapper">
+                    
                     <div>
                         <h2>
                             Useful Links
@@ -35,7 +38,7 @@ function Footer() {
                         <Link to='americancars'>American Cars</Link>
                         <Link to='londoncars'>London Cars</Link>
                     </div>
-                    
+                    <p>© 2020. All rights reserved Auto Info. By Nana Asamoah Jnr</p>
                 </div>
                 
                 

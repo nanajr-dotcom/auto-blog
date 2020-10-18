@@ -1,10 +1,12 @@
 import React from 'react'
 import HeroA from '../Components/HeroA';
 
+
 function Luxurycars() {
     return (
         <div>
-           <HeroA/> 
+           <HeroA/>
+          
         </div>
     )
 }
