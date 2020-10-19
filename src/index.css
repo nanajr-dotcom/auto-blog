@@ -270,7 +270,7 @@ a{
 
 
 .hero-container2{
-  background: url('./Components/Images/auto2.jpeg') center center/cover no-repeat;
+  background: url('./Components/Images/auto9.jpg') center center/cover no-repeat;
   height: 40vh;
   width: 100%;
   display: flex;
@@ -308,7 +308,7 @@ a{
 }
 
 .hero-container3{
-  background: url('./Components/Images/auto3.jpeg') center center/cover no-repeat;
+  background: url('./Components/Images/auto8.jpg') center center/cover no-repeat;
   height: 40vh;
   width: 100%;
   display: flex;
@@ -344,7 +344,7 @@ a{
 }
 
 .hero-container4{
-  background: url('./Components/Images/auto4.jpeg') center center/cover no-repeat;
+  background: url('./Components/Images/auto7-min.jpg') center center/cover no-repeat;
   height: 40vh;
   width: 100%;
   display: flex;
@@ -454,3 +454,6 @@ a{
   color: white;
   text-align: center;
 }
+
+
+

@@ -24,7 +24,7 @@ function App() {
           <Route path='/login' component={Login} />
         </Switch>
       </Router>
-      </ThemeProvider> 
+    </ThemeProvider> 
     </>
   );
 }

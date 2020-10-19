@@ -1,6 +1,6 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Hero from '../Components/Hero';
+import Hero from '../HeroComponents/Hero';
 
 
 

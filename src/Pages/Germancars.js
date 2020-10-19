@@ -1,6 +1,11 @@
 import React from 'react'
 import Footer from '../Components/Footer';
-import HeroB from '../Components/HeroB';
+import HeroB from '../HeroComponents/HeroB';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
+
+
 
 
 
@@ -11,11 +16,15 @@ function Germancars() {
 
     return (
       
-        <div>
-           <HeroB/>
+        <section>
             
-           <Footer/>
-        </div>
+            <div>
+                
+           <HeroB/>
+           
+            </div>
+           
+        </section>
        
     )
 }

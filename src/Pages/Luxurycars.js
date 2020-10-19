@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../Components/Footer';
-import HeroA from '../Components/HeroA';
+import HeroA from '../HeroComponents/HeroA';
 
 
 function Luxurycars() {

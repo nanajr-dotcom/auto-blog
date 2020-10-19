@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../Components/Footer'
-import HeroD from '../Components/HeroD'
+import HeroD from '../HeroComponents/HeroD'
 
 function Londoncars() {
     return (

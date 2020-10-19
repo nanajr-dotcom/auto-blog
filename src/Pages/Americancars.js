@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../Components/Footer'
-import HeroC from '../Components/HeroC'
+import HeroC from '../HeroComponents/HeroC'
 
 function Americancars() {
     return (
