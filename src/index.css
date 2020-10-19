@@ -455,5 +455,43 @@ a{
   text-align: center;
 }
 
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.row{
+  margin: 4em 20px;
+}
+
+.overlay::before{
+  z-index: 1;
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(180deg, transparent 18%, rgba(0,0,0,0.8)99%, rgba(0,0,0,0.8)100%)
+
+}
+
+.masonry{
+  display: grid;
+ gap: 30px;
+}
 
 
+.masonry-post{
+  display: block;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+  margin: 0 auto;
+}

@@ -1,8 +1,9 @@
 import React from 'react'
-import Footer from '../Components/Footer';
+
 import HeroB from '../HeroComponents/HeroB';
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import Blog from '../Components/Blog'
 
 
 
@@ -21,6 +22,7 @@ function Germancars() {
             <div>
                 
            <HeroB/>
+           <Blog/>
            
             </div>
            
