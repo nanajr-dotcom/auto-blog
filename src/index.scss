@@ -204,7 +204,21 @@ a{
   font-size: 90px;
   font-weight: 800;
   margin-top: -100px;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  
 }
+ @keyframes typing{
+   from {
+     width: 0
+   }
+ }
+
+@keyframes blink{
+   50% {
+     border-color: transparent
+   }
+ }
+
 
 .hero-container p{
   margin-top: 8px;
@@ -484,7 +498,7 @@ a{
 
 
 .masonry-post{
-  display: block;
+
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -494,4 +508,47 @@ a{
   width: 100%;
   text-decoration: none;
   margin: 0 auto;
+  min-height: 200px;
+
+  .image-text{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .image-title, .image-date, .tags-container, div{
+    float: left;
+    width: 100%;
+    z-index: 10;
+    font-weight: 300;
+
+  }
+
+ .image-title{
+   font-size: 30px;
+   color: white;
+   margin-block-start: 0;
+   margin-block-end: 10px; 
+ }
+ 
+ .image-date{
+   font-size: 18px;
+   color: rgba(255, 255, 255, 0.486);
+ }
+  .tags-container{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    display: inline-flex;
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-left: -1px;
+    .tag{
+      border-radius: 5px;
+      padding: 4px 8px;
+      margin-right: 5px;
+    }
+  }
 }

@@ -4,6 +4,7 @@ import HeroB from '../HeroComponents/HeroB';
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blog from '../Components/Blog'
+import Footer from '../Components/Footer'
 
 
 
@@ -17,16 +18,16 @@ function Germancars() {
 
     return (
       
-        <section>
-            
+        <>
+            <HeroB />
             <div>
                 
-           <HeroB/>
+          
            <Blog/>
            
             </div>
-           
-        </section>
+           <Footer/>
+        </>
        
     )
 }
