@@ -40,22 +40,29 @@ const Newpostform = ({ setUserLoggedIn}) =>{
     }
 
     return (
-            <form onSubmit={handleSubmit} >
+        <form className="form-signin"  onSubmit={handleSubmit} >
 
-                <div>
+            <div className="form-group">
                     <label htmlFor="title">Title</label>
-                    <input type="text" name="title" placeholder="type your title" onChange={handleTitleChange} required />
+                <input type="text" className="form-control" name="title" placeholder="type your title" onChange={handleTitleChange} required />
                 </div>  
 
 
-                <div>
+            <div className="form-group" >
                     <label htmlFor="Content">Content</label>
-                    <textarea name="content" placeholder="Type your post here" onChange={handleContentChange} required/>
+                <textarea className="form-control"  name="content" placeholder="Type your post here" onChange={handleContentChange} required/>
                 </div>  
 
 
-                <div>
-                    <button as='input' type="submit" value="Create New Post" variant="primary"/>
+
+            <div className="form-group" >
+                   
+                <button
+                    type="submit"
+                    className="btn btn-lg btn-primary btn-block __web-inspector-hide-shortcut__"
+                    value="Create New Post" variant="primary"
+                    
+                >Create New Post</button>
                 </div>  
 
             </form>

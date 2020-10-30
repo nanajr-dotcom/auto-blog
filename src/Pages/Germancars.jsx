@@ -22,7 +22,7 @@ function Germancars() {
             <div  >
                 <div className="first-section">
                   
-                <button onClick={toggleTheme}> toggle</button>
+                    <input type="checkbox" class="toggle" checked onClick={toggleTheme} />
                 
                 </div>
            <Blog/>
