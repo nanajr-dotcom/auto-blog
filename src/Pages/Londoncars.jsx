@@ -3,6 +3,7 @@ import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import HeroD from '../HeroComponents/HeroD'
 import { useTheme, useThemeUpdate } from '../Components/ThemeContext';
+import Postsonpage2 from '../Components/Postsonpage2';
 
 function Londoncars() {
     const darkTheme = useTheme()
@@ -22,7 +23,7 @@ function Londoncars() {
 
                 </div>
                 <Blog />
-
+                <Postsonpage2/>
             </div>
             <Footer />
             

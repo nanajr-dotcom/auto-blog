@@ -11,6 +11,7 @@ import { ThemeProvider } from './Components/ThemeContext';
 import Newpostform from './Pages/NewPost';
 import NewHome from './Pages/NewHome';
 import Signup from './Components/Signup';
+import Gallery from './Pages/Gallery';
 
 
 function App() {
@@ -26,9 +27,11 @@ function App() {
           <Route path='/londoncars' component={Londoncars} />
           <Route path='/americancars' component={Americancars} />
           <Route path='/login' component={Login} />
-            <Route path='/signup' component={Signup} />
+          <Route path='/signup' component={Signup} />
           <Route path='/newpost' component={Newpostform} />
           <Route path='/newhome' component={NewHome}/>
+          <Route path='/gallery' component={Gallery} />
+        
         </Switch>
       </Router>
     </ThemeProvider> 

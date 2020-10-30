@@ -4,6 +4,7 @@ import HeroA from '../HeroComponents/HeroA';
 import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import { useTheme, useThemeUpdate } from '../Components/ThemeContext';
+import Postsonpage4 from '../Components/Postsonpage4';
 
 
 function Luxurycars() {
@@ -23,7 +24,7 @@ function Luxurycars() {
 
                 </div>
                 <Blog />
-
+                <Postsonpage4/>
             </div>
             <Footer />
 

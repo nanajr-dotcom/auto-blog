@@ -1,5 +1,8 @@
 import React from 'react'
-import lambo from './Images/auto1.jpeg'
+import rryc1 from './Images/rryc1.jpg'
+import rryce2 from './Images/rryce2.jpg'
+import ast1 from './Images/ast1.jpg'
+import bt1 from './Images/bt1.jpg'
 function Postsonpage4() {
     return (
         <>
@@ -11,7 +14,7 @@ function Postsonpage4() {
                             <div>
                                 <article className="article">
                                     <h1 className="article-title">Robots Have Feelings, Too</h1>
-                                    <img src={lambo} className="img-fluid" alt="Responsive image"></img>
+                                    <img src={bt1} className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
                                             The term “artificial intelligence” has been floating around since the
@@ -26,7 +29,7 @@ function Postsonpage4() {
                                 </article>
                                 <article className="article">
                                     <h1 className="article-title">Robots Have Feelings, Too</h1>
-                                    <img src={lambo} className="img-fluid" alt="Responsive image"></img>
+                                    <img src={rryce2} className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
                                             The term “artificial intelligence” has been floating around since the
@@ -46,7 +49,7 @@ function Postsonpage4() {
                             <div>
                                 <article className="article">
                                     <h1 className="article-title">Robots Have Feelings, Too</h1>
-                                    <img src={lambo} className="img-fluid" alt="Responsive image"></img>
+                                    <img src={rryc1} className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
                                             The term “artificial intelligence” has been floating around since the
@@ -61,7 +64,7 @@ function Postsonpage4() {
                                 </article>
                                 <article className="article">
                                     <h1 className="article-title">Robots Have Feelings, Too</h1>
-                                    <img src={lambo} className="img-fluid" alt="Responsive image"></img>
+                                    <img src={ast1} className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
                                             The term “artificial intelligence” has been floating around since the

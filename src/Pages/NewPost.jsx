@@ -40,7 +40,7 @@ const Newpostform = ({ setUserLoggedIn}) =>{
     }
 
     return (
-        <form className="form-signin"  onSubmit={handleSubmit} >
+        <form className="container"  onSubmit={handleSubmit} >
 
             <div className="form-group">
                     <label htmlFor="title">Title</label>

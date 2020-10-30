@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import Newpostform from '../Pages/NewPost';
+import { useHistory } from 'react-router-dom';
 
 function Login() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-
+ const history = useHistory()
     const [userLoggedIn, setUserLoggedIn] = useState(false);
 
     function handleEmailInput(event) {
@@ -22,6 +23,7 @@ function Login() {
 
         if (email === 'admin@blog.com' && password === '@123456') {
             setUserLoggedIn(true);
+            history.push('/newpost')
         }
 
 
@@ -78,7 +80,7 @@ function Login() {
                     </p>
                 </form>
             
-                    {userLoggedIn && <Newpostform setUserLoggedIn={setUserLoggedIn} />}
+                    
                 
            </div>
             

@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import { useTheme, useThemeUpdate } from '../Components/ThemeContext';
+import Postsonpage3 from '../Components/Postsonpage3';
 
 function Americancars() {
     const darkTheme = useTheme()
@@ -23,6 +24,7 @@ function Americancars() {
 
                 </div>
                 <Blog />
+                <Postsonpage3/>
 
             </div>
             <Footer />
