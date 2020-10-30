@@ -6,6 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import { useTheme, useThemeUpdate } from '../Components/ThemeContext';
+import Postsonpage1 from '../Components/Postsonpage1';
 
 
 function Germancars() {
@@ -26,7 +27,7 @@ function Germancars() {
                 
                 </div>
            <Blog/>
-           
+           <Postsonpage1/>
             </div>
            <Footer/>
         </div>
