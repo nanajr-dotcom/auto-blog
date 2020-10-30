@@ -7,6 +7,7 @@ export default function MasonryPost({post, tagsOnTop}) {
     const style = {...imageBackground, ...post.style}
 
     return (
+        
         <a className="masonry-post overlay" style={style} href={post.link}>
             <div className="image-text">
                 <div className="tags-container">
@@ -21,9 +22,11 @@ export default function MasonryPost({post, tagsOnTop}) {
               <h2 className="image-title">{post.title}</h2>
                <span className="image-date">{post.date}</span>
                 </div>
+               
             </div>
 
         </a>
+     
     )
 }
 
