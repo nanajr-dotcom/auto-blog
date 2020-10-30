@@ -35,7 +35,7 @@ function Footer() {
                                 name="email"
                                 placeholder="Enter your email..."
                             />
-                            <button>
+                            <button className="btn btn-primary" >
                                 Subscribe
                     </button>
                         </form>

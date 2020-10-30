@@ -3,7 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { postArray } from "./Posts"; //Import postArray from PostArray.js
 import moment from "moment"
 
-const Newpostform = () =>{
+const Newpostform = ({ setUserLoggedIn}) =>{
+
+    
 
     const [title, setTitle] = useState('');
     const [content, setContent] = useState('');
