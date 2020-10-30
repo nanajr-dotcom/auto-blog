@@ -36,4 +36,11 @@ export default [
         link: '#',
         image: 'auto8.jpg'
     },
+    {
+        title: 'You should see these new features',
+        date: moment().format('MMMM DD YYYY'),
+        categories: ['lambo', 'bentley'],
+        link: '#',
+        image: 'auto1.jpeg'
+    },
 ]

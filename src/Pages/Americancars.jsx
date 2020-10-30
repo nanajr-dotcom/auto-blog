@@ -1,18 +1,12 @@
 import React from 'react'
 
-import HeroB from '../HeroComponents/HeroB';
-
+import HeroC from '../HeroComponents/HeroC'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import { useTheme, useThemeUpdate } from '../Components/ThemeContext';
 
-
-
-
-
-
-function Germancars() {
+function Americancars() {
     const darkTheme = useTheme()
     const toggleTheme = useThemeUpdate()
     const themeStyles = {
@@ -20,19 +14,20 @@ function Germancars() {
         color: darkTheme ? '#CCC' : '#333'
     }
     return (
-      
-        <div style={ themeStyles }  >
-            <HeroB />
+        <div style={ themeStyles}  >
+            <HeroC/>
             <div  >
-                
-                <button onClick={toggleTheme}> toggle</button>
-           <Blog/>
-           
+                <div className="first-section">
+                    
+                    <button onClick={toggleTheme}> toggle</button>
+
+                </div>
+                <Blog />
+
             </div>
-           <Footer/>
+            <Footer />
         </div>
-       
     )
 }
 
-export default Germancars;
+export default Americancars;

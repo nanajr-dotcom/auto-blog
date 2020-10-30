@@ -8,6 +8,9 @@ import Londoncars from './Pages/Londoncars';
 import Americancars from './Pages/Americancars';
 import Login from './Components/Login';
 import { ThemeProvider } from './Components/ThemeContext';
+import Newpostform from './Pages/NewPost';
+import NewHome from './Pages/NewHome';
+import Signup from './Components/Signup';
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
           <Route path='/londoncars' component={Londoncars} />
           <Route path='/americancars' component={Americancars} />
           <Route path='/login' component={Login} />
+            <Route path='/signup' component={Signup} />
+          <Route path='/newpost' component={Newpostform} />
+          <Route path='/newhome' component={NewHome}/>
         </Switch>
       </Router>
     </ThemeProvider> 

@@ -31,5 +31,11 @@ export const SidebarData = [
     title: 'Login',
     path: '/login',
     cName: 'nav-text'
+  },
+  {
+    title: 'Sign Up',
+    path: '/signup',
+    cName: 'nav-text'
   }
+
 ];
