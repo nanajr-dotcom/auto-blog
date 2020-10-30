@@ -5,7 +5,7 @@ import Blog from '../Components/Blog'
 import Footer from '../Components/Footer'
 import { useTheme, useThemeUpdate } from '../Components/ThemeContext';
 import Postsonpage from '../Components/Postsonpage';
-import Imagebox from '../Components/Imagebox';
+
 
 
 
@@ -28,7 +28,7 @@ function Home() {
                     <input type="checkbox" class="toggle" checked onClick={toggleTheme}/>
 
                 </div>
-                <Imagebox/>
+                
                 <Blog />
                 <Postsonpage/>
 
