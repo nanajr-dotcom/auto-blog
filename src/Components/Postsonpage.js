@@ -14,7 +14,7 @@ function Postsonpage() {
                         <div className="col-md-4">
                             <div>
                                 <article className="article">
-                                    <h1 className="article-title">Robots Have Feelings, Too</h1>
+                                    <h1 className="article-title">Luxury Is Pleasure In this Rolls Royce</h1>
                                     <img src={rryce2 } className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
@@ -29,7 +29,7 @@ function Postsonpage() {
                                     </div>
                                 </article>
                                 <article className="article">
-                                <h1 className="article-title">Robots Have Feelings, Too</h1>
+                                <h1 className="article-title">Benz GLE models are the next big thing</h1>
                                     <img src={benzo} className="img-fluid" alt="Responsive image"></img>
                                 <div className="article-body">
                                     <p>
@@ -49,7 +49,7 @@ function Postsonpage() {
                         <div className="col-md-4">
                             <div>
                                 <article className="article">
-                                    <h1 className="article-title">Robots Have Feelings, Too</h1>
+                                    <h1 className="article-title">All new Jaguar X-type</h1>
                                     <img src={jag} className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
@@ -64,7 +64,7 @@ function Postsonpage() {
                                     </div>
                                 </article>
                                 <article className="article">
-                                    <h1 className="article-title">Robots Have Feelings, Too</h1>
+                                    <h1 className="article-title">Chevy Camaro "I am a Beast"</h1>
                                     <img src={chv1} className="img-fluid" alt="Responsive image"></img>
                                     <div className="article-body">
                                         <p>
